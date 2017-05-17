@@ -5,7 +5,6 @@
 }
 
 html {
-    background-color: #fff;
     color: #000;
     font-family: 'Roboto', sans-serif;
     text-rendering: optimizeLegibility;
@@ -13,6 +12,7 @@ html {
 
 body {
     font-size: 18px;
+    background-color: #dfe5ef;
 }
 
 h1 {
@@ -23,13 +23,33 @@ header {
     margin-bottom: 20px;
 }
 
+footer {
+    margin-top: 20px;
+}
+
 .blog-post {
     width: 75%;
-    padding-right: 30px;
     position: relative;
 }
 
 .main-text {
     text-align: justify;
     margin-bottom: 20px;
+}
+
+#page {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 600px;
+    max-width: 60em;
+    font-size: 100%;
+    background-color: white;
+}
+
+#content {
+    margin: 0 145px 0 0;
+    padding: 3em 5% 2em 5%;
+    min-width: 20em;
+    max-width: 60em;
 }
