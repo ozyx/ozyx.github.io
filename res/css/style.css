@@ -27,8 +27,11 @@ footer {
     margin-top: 20px;
 }
 
+p {
+    margin: 0.7em 0;
+}
+
 .blog-post {
-    width: 75%;
     position: relative;
 }
 
@@ -48,7 +51,7 @@ footer {
 }
 
 #content {
-    margin: 0 145px 0 0;
+    margin: 0 15% 0 15%;
     padding: 3em 5% 2em 5%;
     min-width: 20em;
     max-width: 60em;
