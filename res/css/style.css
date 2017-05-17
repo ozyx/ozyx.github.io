@@ -38,6 +38,7 @@ p {
 .main-text {
     text-align: justify;
     margin-bottom: 20px;
+    line-height: 1.4em;
 }
 
 #page {
@@ -45,13 +46,13 @@ p {
     margin: 0 auto;
     padding: 0;
     min-width: 600px;
-    max-width: 60em;
+    max-width: 40em;
     font-size: 100%;
     background-color: white;
 }
 
 #content {
-    margin: 0 15% 0 15%;
+    margin: 0 0 0 0;
     padding: 3em 5% 2em 5%;
     min-width: 20em;
     max-width: 60em;
