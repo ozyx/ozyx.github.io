@@ -25,12 +25,20 @@ header {
 
 footer {
     margin-top: 20px;
+    border-top: solid;
+    border-color: #dfe5ef;
 }
 
 footer img {
-    height: 200px;
+    height: 150px;
     width: auto;
     border-radius: 50%;
+    float: left;
+}
+
+footer p {
+    float: left;
+    padding-top: 50px;
 }
 
 p {
@@ -50,6 +58,12 @@ p {
 .post-title {
     font-size: 20px;
     text-align: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 #page {
@@ -72,4 +86,11 @@ p {
 #header-text {
     font-size: 20px;
     text-align: center;
+}
+
+.date {
+    position:absolute;
+    top: 5%;
+    right: 0%;
+    font-size: 16px;
 }
