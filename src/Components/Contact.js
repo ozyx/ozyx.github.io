@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <Container id="contact" className="section">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <h3 className="section-header">Contact</h3>
         </Row>
       </Container>

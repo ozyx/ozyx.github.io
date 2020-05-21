@@ -11,7 +11,7 @@ class Experience extends Component {
   render() {
     return (
       <Container id="experience" className="section">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <h3 className="section-header">Experience</h3>
         </Row>
         <Row>

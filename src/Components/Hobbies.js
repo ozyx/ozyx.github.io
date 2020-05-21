@@ -8,7 +8,7 @@ class Hobbies extends Component {
   render() {
     return (
       <Container id="hobbies" className="section">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <h3 className="section-header">Hobbies</h3>
         </Row>
         <Row>

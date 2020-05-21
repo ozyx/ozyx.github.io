@@ -10,7 +10,7 @@ class AboutMe extends Component {
     return (
       <div className="about-me-contents">
         <Container id="about-me" className="section">
-          <Row className="justify-content-md-center">
+          <Row className="justify-content-center">
             <h3 className="section-header">About Me</h3>
           </Row>
           <Row>
