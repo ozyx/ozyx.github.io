@@ -15,7 +15,7 @@ class Experience extends Component {
           <h3 className="section-header">Experience</h3>
         </Row>
         <Row>
-          <Media>
+          <Media className="experience-item">
             <img
               width={64}
               height={64}
@@ -45,7 +45,7 @@ class Experience extends Component {
           </Media>
         </Row>
         <Row>
-          <Media>
+          <Media className="experience-item">
             <img
               width={64}
               height={64}
@@ -79,7 +79,7 @@ class Experience extends Component {
           </Media>
         </Row>
         <Row>
-          <Media>
+          <Media className="experience-item">
             <img
               width={64}
               height={64}
