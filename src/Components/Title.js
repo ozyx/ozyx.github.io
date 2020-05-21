@@ -47,7 +47,7 @@ class Title extends Component {
           </Button>
         </Row>
         <Row>
-          <Button target="_blank" href="https://drive.google.com/open?id=1Ef37xiwnE8_9jxAriACkP9EwKccbHxUq" variant="dark"><b>Download My CV</b></Button>
+          <Button target="_blank" href="https://drive.google.com/open?id=1OYZ3v6sOMycHLIw2xSl93NN8UFLBzVvm" variant="dark"><b>Download My CV</b></Button>
         </Row>
       </Container>
     );
