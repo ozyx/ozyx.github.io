@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
-import jesse from "../assets/jesse.png";
+import jesse from "../assets/jesse_cropped.jpg";
 
 class Title extends Component {
   render() {
