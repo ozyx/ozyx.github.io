@@ -7,6 +7,7 @@ import Hobbies from "./Components/Hobbies";
 import Navigation from "./Components/Navigation";
 import Projects from "./Components/Projects";
 import Title from "./Components/Title";
+import constructionImg from "./assets/underconstruction.webp";
 
 import "./App.css";
 
@@ -21,13 +22,14 @@ function App() {
           crossorigin="anonymous"
         />
       </head>
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
       <header className="App-header">
+        <img src={constructionImg} />
         <Title></Title>
       </header>
-      <AboutMe></AboutMe>
+      {/* <AboutMe></AboutMe>
       <Experience></Experience>
-      <Projects></Projects>
+      <Projects></Projects> */}
       {/* TODO: */}
       {/* <Hobbies></Hobbies> */}
       {/* <Contact></Contact> */}

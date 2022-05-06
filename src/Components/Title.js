@@ -12,7 +12,7 @@ class Title extends Component {
   render() {
     return (
       <Container className="title-container">
-        <Row>
+        {/* <Row>
           <Image className="App-image" src={jesse} roundedCircle></Image>
         </Row>
         <Row>
@@ -48,7 +48,8 @@ class Title extends Component {
         </Row>
         <Row>
           <Button target="_blank" href="https://drive.google.com/open?id=1OYZ3v6sOMycHLIw2xSl93NN8UFLBzVvm" variant="dark"><b>Download My CV</b></Button>
-        </Row>
+        </Row> */}
+        Under Construction!
       </Container>
     );
   }
